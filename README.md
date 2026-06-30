@@ -37,7 +37,7 @@ This project implements an RTC with an alarm feature and demonstrates the comple
 # RTC Architecture
 
 <p align="center">
-<img src="images/block_diagram.png" width="650">
+<img src="blockdgm.png" width="650">
 </p>
 
 ### Major Blocks
@@ -69,7 +69,7 @@ The RTC was designed using **Verilog HDL**, implementing:
 The RTL design was simulated to verify the correct counting of seconds, minutes, and hours along with alarm functionality.
 
 <p align="center">
-<img src="images/simulation.png" width="700">
+<img src="simulation.png" width="700">
 </p>
 
 ---
@@ -79,7 +79,7 @@ The RTL design was simulated to verify the correct counting of seconds, minutes,
 The Verilog RTL was synthesized into a gate-level netlist using Cadence Genus.
 
 <p align="center">
-<img src="images/synthesis.png" width="700">
+<img src="synthesis.png" width="700">
 </p>
 
 ---
@@ -131,7 +131,7 @@ The synthesized netlist was analyzed to determine gate count and hardware utiliz
 The initial floorplan defines the core area, IO placement, and routing resources.
 
 <p align="center">
-<img src="images/floorplan.png" width="700">
+<img src="floorplanning.png" width="700">
 </p>
 
 ---
@@ -141,7 +141,7 @@ The initial floorplan defines the core area, IO placement, and routing resources
 Power rings and power stripes were inserted to ensure stable power distribution.
 
 <p align="center">
-<img src="images/powerplan.png" width="700">
+<img src="powerplanning.png" width="700">
 </p>
 
 ---
@@ -151,7 +151,7 @@ Power rings and power stripes were inserted to ensure stable power distribution.
 Standard cells were placed within the core while optimizing congestion and timing.
 
 <p align="center">
-<img src="images/placement.png" width="700">
+<img src="placement.png" width="700">
 </p>
 
 ---
@@ -161,7 +161,7 @@ Standard cells were placed within the core while optimizing congestion and timin
 Clock buffers and routing were inserted to minimize clock skew and balance clock distribution.
 
 <p align="center">
-<img src="images/cts.png" width="700">
+<img src="cts.png" width="700">
 </p>
 
 ---
@@ -171,7 +171,7 @@ Clock buffers and routing were inserted to minimize clock skew and balance clock
 Signal routing was completed while satisfying design rules and timing constraints.
 
 <p align="center">
-<img src="images/routing.png" width="700">
+<img src="routing.png" width="700">
 </p>
 
 ---
@@ -181,7 +181,7 @@ Signal routing was completed while satisfying design rules and timing constraint
 The final layout was generated after completing the ASIC implementation flow.
 
 <p align="center">
-<img src="images/signoff.png" width="700">
+<img src="signoff.png" width="700">
 </p>
 
 ---
