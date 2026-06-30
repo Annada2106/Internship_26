@@ -89,7 +89,7 @@ The Verilog RTL was synthesized into a gate-level netlist using Cadence Genus.
 Area utilization after synthesis was analyzed to determine silicon resource usage.
 
 <p align="center">
-<img src="arearpt.png" width="700">
+<img src="arearep.png" width="700">
 </p>
 
 ---
@@ -119,7 +119,7 @@ Power estimation was carried out to evaluate dynamic and leakage power consumpti
 The synthesized netlist was analyzed to determine gate count and hardware utilization.
 
 <p align="center">
-<img src="gaterpt.png" width="500">
+<img src="gaterep.png" width="500">
 </p>
 
 ---
