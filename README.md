@@ -89,7 +89,7 @@ The Verilog RTL was synthesized into a gate-level netlist using Cadence Genus.
 Area utilization after synthesis was analyzed to determine silicon resource usage.
 
 <p align="center">
-<img src="images/area_report.png" width="700">
+<img src="arearpt.png" width="700">
 </p>
 
 ---
@@ -99,7 +99,7 @@ Area utilization after synthesis was analyzed to determine silicon resource usag
 Static Timing Analysis (STA) was performed to verify timing closure and ensure the design met timing requirements.
 
 <p align="center">
-<img src="images/timing_report.png" width="700">
+<img src="timingrpt.png" width="700">
 </p>
 
 ---
@@ -109,7 +109,7 @@ Static Timing Analysis (STA) was performed to verify timing closure and ensure t
 Power estimation was carried out to evaluate dynamic and leakage power consumption.
 
 <p align="center">
-<img src="images/power_report.png" width="700">
+<img src="powerrpt.png" width="700">
 </p>
 
 ---
@@ -119,7 +119,7 @@ Power estimation was carried out to evaluate dynamic and leakage power consumpti
 The synthesized netlist was analyzed to determine gate count and hardware utilization.
 
 <p align="center">
-<img src="images/gate_report.png" width="500">
+<img src="gaterpt.png" width="500">
 </p>
 
 ---
