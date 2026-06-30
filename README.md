@@ -1,7 +1,5 @@
 # FPGA Implementation & Digital IC Design
 
-Welcome to my FPGA implementation repository! This collection of codes and hardware designs is a culmination of my work in digital logic design and hardware description languages.
-
 ### 🎓 Background & Inspiration
 The foundation for the projects in this repository was built during an intensive internship on **Digital IC Design using Cadence Tools**. This program was hosted by the **IEEE MEC Student Branch (SB)**, conducted by the **IEEE CASS Kerala Chapter**, and held at **Govt. Model Engineering College**. The exposure to industry-standard Cadence workflows during this internship deeply influenced my approach to digital design, simulation, and hardware synthesis.
 
@@ -9,7 +7,8 @@ The foundation for the projects in this repository was built during an intensive
 
 ## 📂 Repository Contents
 
-All source codes, testbenches, and constraint files are currently maintained in the `main` branch. 
+All source codes, testbenches, and constraint files.
+The project detailes are mentioned in the `main` branch 
 
 ### Key Implementations
 * **Combinational Logic Circuits:** * `Half adder`
